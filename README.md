@@ -138,7 +138,7 @@ The system implements rate limiting to respect API limits:
   - Outreach status
   - Follow-up schedules
 
-## ⚡ Best Practices
+##  Best Practices
 
 1. Always test with a small number of jobs first
 2. Monitor the logs for any rate limiting or API issues
