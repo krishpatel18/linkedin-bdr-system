@@ -2,24 +2,24 @@
 
 An AI-powered automation pipeline for identifying and engaging with job postings on LinkedIn. This system automates the entire process of job searching, company research, profile generation, and multi-channel outreach.
 
-## 🌟 Features
+##  Features
 
-- 🤖 Automated job scraping from LinkedIn
-- 🔍 AI-powered company and role research
-- 👤 Synthetic candidate profile generation
-- 📧 Multi-channel outreach (Email + LinkedIn)
-- 📅 Automated follow-up scheduling
-- 📈 Sentiment analysis of company news
-- 📊 Data tracking via Google Sheets
+-  Automated job scraping from LinkedIn
+-  AI-powered company and role research
+-  Synthetic candidate profile generation
+-  Multi-channel outreach (Email + LinkedIn)
+-  Automated follow-up scheduling
+-  Sentiment analysis of company news
+-  Data tracking via Google Sheets
 
-## 🚀 Prerequisites
+##  Prerequisites
 
 - Python 3.8+
 - Gmail account with App Password enabled
 - LinkedIn account
 - Required API keys (see Configuration section)
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -49,7 +49,7 @@ cp .env.example .env
 # Edit .env with your credentials
 ```
 
-## 🔑 Required API Keys
+##  Required API Keys
 
 1. **OpenAI API Key**
    - Sign up at [OpenAI](https://platform.openai.com/)
@@ -71,7 +71,7 @@ cp .env.example .env
    - Sign up at [PhantomBuster](https://phantombuster.com/)
    - Get API key from settings
 
-## 📧 Email Setup
+##  Email Setup
 
 1. Enable 2FA on your Gmail account
 2. Generate App Password:
@@ -81,7 +81,7 @@ cp .env.example .env
    - Generate new app password for "Mail"
    - Copy password to .env file
 
-## 📊 Google Sheet Setup
+##  Google Sheet Setup
 
 1. Create a new Google Sheet
 2. Go to [Sheety](https://sheety.co/)
@@ -89,7 +89,7 @@ cp .env.example .env
 4. Get your Sheety API URL
 5. Add URL to .env file
 
-## 🚀 Usage
+##  Usage
 
 ### Interactive Mode
 ```bash
@@ -105,7 +105,7 @@ Follow the prompts to:
 python main.py --role "Software Engineer" --location "San Francisco Bay Area" --max-jobs 5
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 linkedin-bdr-system/
@@ -121,14 +121,14 @@ linkedin-bdr-system/
 └── .env.example         # Environment template
 ```
 
-## ⚠️ Rate Limiting
+## ⚠ Rate Limiting
 
 The system implements rate limiting to respect API limits:
 - 2-second delay between job processing
 - Exponential backoff for failed API calls
 - Maximum 3 retry attempts
 
-## 🔍 Monitoring
+##  Monitoring
 
 - Check `linkedin_outreach.log` for detailed logs
 - Monitor your Google Sheet for:
@@ -146,7 +146,7 @@ The system implements rate limiting to respect API limits:
 4. Regularly check your Google Sheet for status updates
 5. Review generated content before sending
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -154,11 +154,11 @@ The system implements rate limiting to respect API limits:
 4. Push to the branch
 5. Create a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI for GPT-4 API
 - LinkedIn for platform access
